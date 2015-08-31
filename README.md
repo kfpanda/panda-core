@@ -1,4 +1,4 @@
-kfpanda-core
+panda-core
 ============
 
-一些公共的类库包
+公共的类库包
