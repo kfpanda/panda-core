@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 /**
  * 2的幂运算工具类。
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午8:18:59
  */
 public class PowerUtil {

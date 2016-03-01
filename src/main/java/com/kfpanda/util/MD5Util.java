@@ -8,7 +8,7 @@ import java.security.MessageDigest;
 
 /**
  * MD5工具类
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午7:55:32
  */
 public class MD5Util {

@@ -4,7 +4,7 @@ import java.io.File;
 
 /**
  * 执行cmd控制台指令
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午7:00:11
  */
 public class ExecUtils {

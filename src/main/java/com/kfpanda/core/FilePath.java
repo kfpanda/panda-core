@@ -5,7 +5,7 @@ import java.net.URL;
 
 /**
  * 获取文件路径
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午10:41:12
  */
 public class FilePath {

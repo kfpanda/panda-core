@@ -34,7 +34,7 @@ package com.kfpanda.core.exception;
  * </pre>
  * 
  * 
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午11:47:42
  *
  */

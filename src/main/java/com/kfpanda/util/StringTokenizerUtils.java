@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 /**
  * 字符串切分方法
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月8日 下午2:34:46
  */
 public class StringTokenizerUtils {

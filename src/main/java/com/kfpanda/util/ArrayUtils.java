@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * array操作工具
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午11:59:50
  */
 public class ArrayUtils { 

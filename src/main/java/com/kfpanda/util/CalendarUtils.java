@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * 日历操作工具
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午12:00:20
  */
 public class CalendarUtils {

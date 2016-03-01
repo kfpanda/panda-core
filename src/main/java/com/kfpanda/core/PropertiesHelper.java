@@ -36,7 +36,7 @@ import com.kfpanda.util.StringTokenizerUtils;
  * 指定是否搜索系统属性:
  * new PropertiesHelper(properties,PropertiesHelper.SYSTEM_PROPERTIES_MODE_OVERRIDE)
  * </pre>
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午11:47:42
  */
 public class PropertiesHelper {

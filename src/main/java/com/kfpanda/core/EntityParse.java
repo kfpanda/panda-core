@@ -16,7 +16,7 @@ public class EntityParse {
 	 * @param attributeMap excel列的索引与实体属性名的对象关系的map
 	 * @param entity 
 	 * @return Object 实体对象
-	 * @author shape cool
+	 * @author kfpanda
 	 */
 	public List<Map<String,Object>> getEntityList(List<?> resList , Map<String,Map.Entry<String,Object>> headMap){
 		List<Map<String,Object>> objList = new ArrayList<Map<String,Object>>();

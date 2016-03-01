@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * 
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午8:14:47
  */
 public class ObjectUtils {

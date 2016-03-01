@@ -2,7 +2,7 @@ package com.kfpanda.core.ip;
 
 /**
  * 判断ip范围工具类
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月6日 下午4:37:11
  */
 public class IpRangeUtils {

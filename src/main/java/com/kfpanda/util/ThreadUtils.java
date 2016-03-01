@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 线程操作工具类
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月8日 下午2:39:09
  */
 public class ThreadUtils {

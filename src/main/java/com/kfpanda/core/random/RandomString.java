@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * 产生自定义长度的随机字符串
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午10:25:20
  */
 public class RandomString {

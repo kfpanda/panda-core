@@ -4,7 +4,7 @@ import java.util.Map;
 
 /**
  * map 工具类
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午7:50:23
  */
 public class MapUtils {

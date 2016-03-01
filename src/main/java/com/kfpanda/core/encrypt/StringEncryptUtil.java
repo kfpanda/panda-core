@@ -11,7 +11,7 @@ import com.kfpanda.util.CommonUtils;
 
 /**
  * 字符串的加密和解密
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月6日 下午6:07:31
  */
 public final class StringEncryptUtil {

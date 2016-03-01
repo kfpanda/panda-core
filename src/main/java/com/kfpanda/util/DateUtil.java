@@ -16,7 +16,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * 日期工具类
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午4:16:38
  */
 public class DateUtil {

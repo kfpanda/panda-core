@@ -2,7 +2,7 @@ package com.kfpanda.util;
 
 /**
  * 拼音工具
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 下午8:16:29
  */
 public class PinyinUtil

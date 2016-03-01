@@ -76,7 +76,7 @@ import java.util.Random;
  */
 /**
  * 产生三种唯一字符串
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午9:35:14
  */
 class RandomGUID extends Object {

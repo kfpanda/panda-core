@@ -8,7 +8,7 @@ import java.lang.reflect.Modifier;
 /**
  * 反射工具类
  * 
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月8日 下午2:23:04
  */
 public class ReflectUtil {

@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 类HttpRequest.java的实现描述：
  * http 请求工具类 
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午11:47:42
  */
 public class HttpRequest {

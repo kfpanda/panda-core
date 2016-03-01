@@ -21,7 +21,7 @@ import org.apache.commons.lang3.StringUtils;
  * -------------------------------------------<br>
  * <br>
  * <br>
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午11:47:42
  */
 public class DateConvertUtils {

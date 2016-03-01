@@ -7,7 +7,7 @@ package com.kfpanda.util;
  * <p>
  * <strong>Copyright (C) Ecointel Software Co.,Ltd.<br></strong>
  * <p>
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月8日 下午2:23:04
  */
 public class RequestUtils{

@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 
 /**
  * 产生唯一的随机字符串
- * @author awifi-core
+ * @author kfpanda
  * @date 2015年1月7日 上午10:22:33
  */
 public class RandomGUIDUtil {
