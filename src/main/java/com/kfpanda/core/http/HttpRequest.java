@@ -14,8 +14,8 @@ import java.nio.ByteBuffer;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * 类HttpRequest.java的实现描述：
@@ -24,11 +24,11 @@ import org.slf4j.LoggerFactory;
  * @date 2015年1月7日 上午11:47:42
  */
 public class HttpRequest {
-    private static Logger logger = LoggerFactory.getLogger(HttpRequest.class);
+    private static Logger logger = LogManager.getLogger(HttpRequest.class);
+
     private static int CONN_TIMEOUT = 5 * 1000; //连接延时
     private static String ENCODE_UTF8 = "UTF-8";
-    
-	
+
     /**
      * 
      * @param requestMethod  get or post

@@ -1,8 +1,10 @@
 package com.kfpanda.util;
 
 /**
- * 
- */
+* 公共字符串处理类。
+* @author kfpanda
+* @date 2015年1月8日 下午2:39:09
+*/
 public class StringUtils
 {
     /**

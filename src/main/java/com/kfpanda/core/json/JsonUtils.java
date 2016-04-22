@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * json序列化及反序列化工具类。
@@ -23,12 +23,9 @@ import org.slf4j.LoggerFactory;
  * @date 2015年1月7日 上午11:47:42
  */
 public class JsonUtils {
+	private static final Logger logger = LogManager.getLogger(JsonUtils.class);
 
-	private static final Logger logger = LoggerFactory.getLogger(JsonUtils.class);
     private static final ObjectMapper objectMapper = new ObjectMapper();
-
-    private JsonUtils() {
-    }
 
     public static ObjectMapper getInstance() {
         return objectMapper;
@@ -52,11 +49,13 @@ public class JsonUtils {
         }
         return null;
     }
-   public static void main(String args[]){
-	   HashMap map =new HashMap();
-	map.put("ss","");
-	System.out.println(toJsonString(map));
-   }
+
+    public static void main(String args[]) {
+        HashMap map = new HashMap();
+        map.put("ss", "");
+        System.out.println(toJsonString(map));
+    }
+
     /**
      * json字符串转化为 JavaBean 还可以直接JsonUtils.getInstance().readValue(String content,Class valueType)用这种方式
      * 
