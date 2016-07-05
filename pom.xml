@@ -30,12 +30,12 @@
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
-			<version>2.5</version>
+			<version>2.6.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
-			<version>2.5</version>
+			<version>2.6.1</version>
 		</dependency>
 		
 		<dependency>
@@ -156,33 +156,9 @@
 		</testResource>
 	</testResources>
 	<testSourceDirectory>src/test/java</testSourceDirectory>
-	<scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
+	<!--<scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>-->
 
 	<finalName>${project.artifactId}</finalName>
 </build>
-
-<reporting>
-	<outputDirectory>${basedir}/target/site</outputDirectory>
-	<plugins>
-		<plugin>
-			<artifactId>maven-project-info-reports-plugin</artifactId>
-			<version>2.0.1</version>
-			<reportSets>
-				<reportSet>
-					<id>sunlink</id>
-					<reports>
-						<report>javadoc</report>
-					</reports>
-					<inherited>true</inherited>
-					<configuration>
-						<links>
-							<link>http://java.sun.com/j2se/1.5.0/docs/api/</link>
-						</links>
-					</configuration>
-				</reportSet>
-			</reportSets>
-		</plugin>
-	</plugins>
-</reporting>
 
 </project>
